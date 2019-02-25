@@ -1,0 +1,38 @@
+Hi. thanks for using this asset.
+
+To use the earthquake, simply drag the script on an object. The script will automatically add the rigidbody at runtime, and the the right properties.
+I strongly recommend to see the demo scene, to have an idea of how this asset should be used
+
+To manipulate the options of the script, you have two methods: in the inspector, or by scripting at runtime. The important attributes are:
+
+
+ - Earthquake.Running:
+	to start the script simply use: "Earthquake.Running = true". Use the value "false" to stop the script.
+	
+ - Earthquake.magnitude:
+	The force of the quake. Basically, it will define how "large" are the movements of your object
+	
+ - Earthquake.shakingSpeed:
+	The speed of the floor at maximum force.
+	
+ - Earthquake.randomAmount:
+	This variable define How random the movement of your floor will be
+	
+ - Earthquake.duration:
+	The total duration of the quake;
+	
+ - Earthquake.forceByAxis:
+	A vector3 defining the axes affected by the movements. At runtime, the values will automatically be cropped between 0 and 1
+	
+ - Earthquake.forceOverTime:
+	An animationcurve defining the force of the quake over time
+	
+ - Earthquake.loop:
+	set true if you want the quake event to loop.
+	
+ - Earthquake.forceRecenter:
+	When the random is applied to the floor, is position may change. If you want your floor to slowly center to his start position, set this option to true
+ 
+You can check the quakeGUI script to see how I manipulate the script.
+
+If you have questions, bugs to report or whatever: Nanoh@live.fr

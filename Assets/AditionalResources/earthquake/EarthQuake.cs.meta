@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9465a0e28a582604cbefe6bfde180a3d
+labels:
+- earthquake
+- quake
+- seism
+- shake
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
